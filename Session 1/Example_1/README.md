@@ -11,7 +11,7 @@ Doing work
 Working!
 Work completed
 Worker done
-===========================================
+
 </pre>
 
 - En asynkron worker [ModifiedWorker.cs](Example_1/ModifiedWorkerDemo.cs), som ger utskrift av förloppet '.....' då metoden LongOperation skapar en ny task och gör exekveringen asykron.
@@ -25,6 +25,4 @@ Working!
 ...................
 Work completed
 Modified worker done
-
-===========================================
 </pre>
