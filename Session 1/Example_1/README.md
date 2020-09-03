@@ -1,4 +1,10 @@
 # Session 1/Example 1
+
+Exempelkod för filmklipp:
+
+**Async/Await in C# - How it works and how to use it (6:21 min) https://www.youtube.com/watch?v=6_GTdR0gBVE.**
+
+## Info
 .NET Core console app som innehåller två "körningar":
 
 - En synkron worker [WorkerDemo.cs](Example_1/WorkerDemo.cs), som helt enkelt kommer att pausa i metoden LongOperation.
