@@ -2,7 +2,8 @@
 
 Exempelkod för första delen av filmklippet:
 
-**C# Async/Await/Task Explained (Deep Dive) (24:21 min) https://www.youtube.com/watch?v=il9gl8MH17s.**
+**C# Async/Await/Task Explained (Deep Dive) (24:21 min)<br>
+https://www.youtube.com/watch?v=il9gl8MH17s.**
 
 ## Info
 .NET Core console app som innehåller tre "körningar":
