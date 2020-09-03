@@ -2,7 +2,8 @@
 
 Exempelkod för filmklipp:
 
-**Async/Await in C# - How it works and how to use it (6:21 min) https://www.youtube.com/watch?v=6_GTdR0gBVE.**
+**Async/Await in C# - How it works and how to use it (6:21 min)<br>
+https://www.youtube.com/watch?v=6_GTdR0gBVE.**
 
 ## Info
 .NET Core console app som innehåller två "körningar":
