@@ -3,11 +3,14 @@ Kod för Techlunch(er) i ämnet "Async-await i C#". Serien är uppdelad i två d
 
 ## Session 1
 Man bör ha kollat på följande filmklipp, för att bättre förstå vad koden gör:
-- Async/Await in C# - How it works and how to use it (6:21 min)
-https://www.youtube.com/watch?v=6_GTdR0gBVE
+- **Async/Await in C# - How it works and how to use it (6:21 min)<br>
+https://www.youtube.com/watch?v=6_GTdR0gBVE**
   - [Session 1/Example 1](Session%201/Example_1)
 
-- C# Async/Await/Task Explained (Deep Dive) (24:21 min)
-https://www.youtube.com/watch?v=il9gl8MH17s
+- **C# Async/Await/Task Explained (Deep Dive) (24:21 min)<br>
+https://www.youtube.com/watch?v=il9gl8MH17s**
   - [Session 1/Example 2](Session%201/Example_2)
   - [Session 1/Example 3](Session%201/Example_3)
+  
+## Session 2
+Kommer snart!
