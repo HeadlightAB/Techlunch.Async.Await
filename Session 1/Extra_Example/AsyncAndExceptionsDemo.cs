@@ -20,7 +20,4 @@ namespace Extra_Example
             throw new AbandonedMutexException("Hallo Dieter, wie geht's?");
         }
     }
-
-    //AsyncAndExceptionsDemo.RunDemo1();
-    //AsyncAndExceptionsDemo.RunDemo2();
 }

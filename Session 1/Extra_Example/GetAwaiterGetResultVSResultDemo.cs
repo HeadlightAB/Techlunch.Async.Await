@@ -49,6 +49,7 @@ namespace Extra_Example
             {
                 var task3 = Task.Run(act());
 
+                task3.Wait();
                 //var result = task3.Result;
                 //task3.GetAwaiter().GetResult();
             }
@@ -59,7 +60,7 @@ namespace Extra_Example
             }
 
             //////////////////////////////////
-            
+
         }
     }
 
