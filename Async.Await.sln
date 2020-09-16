@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_1_ConfigureAwait", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example_2_ValueTask", "Session 2\Example_2_ValueTask\Example_2_ValueTask.csproj", "{91EFC387-0A37-4A1E-B9BE-98AEA4E8E562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_3_Catch_When", "Session 2\Example_3_Catch_When\Example_3_Catch_When.csproj", "{98E23146-08A6-4858-B178-080A2B8D6610}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{91EFC387-0A37-4A1E-B9BE-98AEA4E8E562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EFC387-0A37-4A1E-B9BE-98AEA4E8E562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EFC387-0A37-4A1E-B9BE-98AEA4E8E562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E23146-08A6-4858-B178-080A2B8D6610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E23146-08A6-4858-B178-080A2B8D6610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E23146-08A6-4858-B178-080A2B8D6610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E23146-08A6-4858-B178-080A2B8D6610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{FE986F3F-2BAD-41A6-8166-27A81C165C2C} = {B7E818A4-2E55-41D7-AF79-9DE5E2F3FF55}
 		{F82E6ACD-0591-4AB4-A9C9-397CED1BE661} = {A53FD31C-E977-4D63-B722-68B8F2195C47}
 		{91EFC387-0A37-4A1E-B9BE-98AEA4E8E562} = {A53FD31C-E977-4D63-B722-68B8F2195C47}
+		{98E23146-08A6-4858-B178-080A2B8D6610} = {A53FD31C-E977-4D63-B722-68B8F2195C47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7BCB50A-43F3-49BB-ADE5-1903125E09D7}
