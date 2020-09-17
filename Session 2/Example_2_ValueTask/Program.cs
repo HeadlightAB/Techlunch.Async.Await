@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace Example_2_ValueTask
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var a = GetNumber();
             Console.WriteLine(a.GetAwaiter().GetResult());
@@ -24,7 +24,7 @@ namespace Example_2_ValueTask
             _taskCount = 0;
 
             var stopwatch = Stopwatch.StartNew();
-            for (int i = 0; i < 100_000; i++)
+            for (var i = 0; i < 100_000; i++)
             {
                 GetNumber().GetAwaiter().GetResult();
             }
@@ -42,7 +42,7 @@ namespace Example_2_ValueTask
             _valueTaskCount = 0;
 
             stopwatch = Stopwatch.StartNew();
-            for (int i = 0; i < 100_000; i++)
+            for (var i = 0; i < 100_000; i++)
             {
                 GetValue().GetAwaiter().GetResult();
             }
@@ -60,7 +60,7 @@ namespace Example_2_ValueTask
             //_valueTaskCount = 0;
 
             //stopwatch = Stopwatch.StartNew();
-            //for (int i = 0; i < 100_000; i++)
+            //for (var i = 0; i < 100_000; i++)
             //{
             //    GetValue().AsTask().GetAwaiter().GetResult();
             //}

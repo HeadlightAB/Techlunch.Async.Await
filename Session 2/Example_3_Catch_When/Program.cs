@@ -2,11 +2,11 @@
 
 namespace Example_3_Catch_When
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            for (int i = 0; i < 25; i++)
+            for (var i = 0; i < 25; i++)
             {
                 try
                 {
