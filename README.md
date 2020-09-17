@@ -1,6 +1,10 @@
 # Techlunch.Async.Await
 Kod för Techlunch(er) i ämnet "Async-await i C#". Serien är uppdelad i två delar, session 1 och session 2.
 
+## Presentationer
+- Session 1: [pptx/Async-Await_1.pptx](pptx/Async-Await_1.pptx?raw=true)
+- Session 2: [pptx/Async-Await_2.pptx](pptx/Async-Await_2.pptx?raw=true)
+
 ## Session 1
 Man bör ha kollat på följande filmklipp, för att bättre förstå vad koden gör:
 - **Async/Await in C# - How it works and how to use it (6:21 min)<br>
