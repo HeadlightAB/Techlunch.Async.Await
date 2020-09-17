@@ -2,6 +2,7 @@
 Kod för Techlunch(er) i ämnet "Async-await i C#". Serien är uppdelad i två delar, session 1 och session 2.
 
 ## Presentationer
+För respektive session finns följande presentationer. Där belyses några intressanta saker i respektive filmklipp, som i mångt och mycket återspeglas i dom kodexempel som följer nedan.
 - **Session 1:** [pptx/Async-Await_1.pptx](pptx/Async-Await_1.pptx?raw=true)
 - **Session 2:** [pptx/Async-Await_2.pptx](pptx/Async-Await_2.pptx?raw=true)
 
