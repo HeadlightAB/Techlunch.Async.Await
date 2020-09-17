@@ -13,4 +13,9 @@ https://www.youtube.com/watch?v=il9gl8MH17s**
   - [Session 1/Example 3](Session%201/Example_3)
   
 ## Session 2
-Kommer snart!
+Man bör ha kollar på följande filmklipp, för att bättre förstå vad koden gör:
+- **Correcting Common Async/Await Mistakes in .NET - Brandon Minnick (längd 1:00:10)<br>
+https://www.youtube.com/watch?v=J0mcYVxJEl0**
+  - [Session 2/Example_1_ConfigureAwait](Session%202/Example_1_ConfigureAwait)
+  - [Session 2/Example_2_ValueTask](Session%202/Example_2_ValueTask)
+  - [Session 2/Example_3_Catch_When](Session%202/Example_3_Catch_When)
