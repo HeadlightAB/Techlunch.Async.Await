@@ -14,12 +14,12 @@ namespace Example_2_ValueTask
             var b = GetValue();
             Console.WriteLine(b.GetAwaiter().GetResult());
 
-
+            Console.WriteLine();
 
             ///////////////////////////////////////////////////////////
 
 
-
+            Console.WriteLine("Hit [ENTER] to go with task");
             Console.ReadLine();
             _taskCount = 0;
 
@@ -31,13 +31,13 @@ namespace Example_2_ValueTask
             stopwatch.Stop();
 
             Console.WriteLine($"Elapsed: {stopwatch.Elapsed} (count: {_taskCount})");
-
+            Console.WriteLine();
 
 
             ///////////////////////////////////////////////////////////
 
 
-
+            Console.WriteLine("Hit [ENTER] to go with ValueTask");
             Console.ReadLine();
             _valueTaskCount = 0;
 
@@ -49,24 +49,24 @@ namespace Example_2_ValueTask
             stopwatch.Stop();
 
             Console.WriteLine($"Elapsed: {stopwatch.Elapsed} (count: {_valueTaskCount})");
-
+            Console.WriteLine();
 
 
             ///////////////////////////////////////////////////////////
 
 
+            //Console.WriteLine("Hit [ENTER] to go with ValueTask, but with AsTask");
+            //Console.ReadLine();
+            //_valueTaskCount = 0;
 
-            Console.ReadLine();
-            _valueTaskCount = 0;
+            //stopwatch = Stopwatch.StartNew();
+            //for (int i = 0; i < 100_000; i++)
+            //{
+            //    GetValue().AsTask().GetAwaiter().GetResult();
+            //}
+            //stopwatch.Stop();
 
-            stopwatch = Stopwatch.StartNew();
-            for (int i = 0; i < 100_000; i++)
-            {
-                GetValue().AsTask().GetAwaiter().GetResult();
-            }
-            stopwatch.Stop();
-
-            Console.WriteLine($"Elapsed: {stopwatch.Elapsed} (count: {_valueTaskCount})");
+            //Console.WriteLine($"Elapsed: {stopwatch.Elapsed} (count: {_valueTaskCount})");
         }
 
         private static int _taskCount;
